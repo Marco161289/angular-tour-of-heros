@@ -1,7 +1,7 @@
 /* You can add global styles to this file, and also import other style files */
 * {
   font-family: 'Roboto', Arial, sans-serif;
-  color: white;
+  color: blue;
   box-sizing: border-box;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -36,6 +36,8 @@ h1, h2 {
 
 p {
   font-size: 14px;
+  text-decoration: underline;
+  font-style: italic;
 }
 
 /* Hyperlink */
@@ -76,8 +78,8 @@ label {
   border-radius: 10px;
   font-size: 14px;
   cursor: pointer;
-  background-color: black;
-  color:gray;
+  background-color: gray;
+  color:white;
   border: none;
 }
 
